@@ -15,7 +15,11 @@ nav a:hover {color: #FFFFFF; }
 body{
    background-color: #fbeded;
 	font-family: sans-serif;
-	padding-bottom: 75px;
+  padding-bottom: 75px;
+	margin-top: : 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 100px;}
 }
 
 h1{
@@ -50,7 +54,7 @@ video {position: right;}
 
 footer{
   background-color: #ffc6ff;
-	position: fixed;
+	position: bottom;
 	bottom: 0;
 	width: 100%;
 	min-width: 900px;
@@ -69,8 +73,9 @@ footer{
 		  background-color: #fbeded;
 		  min-width: 900px;
 		  max-width: 1000px;
+      padding: 20px;
+      min-height: 500px;
 }
-
 
 
 table {border: 1.5px solid #006600;
@@ -163,7 +168,7 @@ input[type="submit"] {margin-left: 135px}
    main{margin-left: 0;
    }
 
-   nav{float: none;
+   nav{float: fixed;
    	width: auto;
    	text-align: center;
    	padding: 0.5em;
@@ -173,8 +178,6 @@ input[type="submit"] {margin-left: 135px}
    	   padding: 0.25em 0.75em;
    }
 
-   #heroHome, #heroBoard, #heroTraining{margin-left: 0; height: 200px;
-   }
 
    footer{margin-left: 0;
    }
@@ -199,8 +202,6 @@ input[type="submit"] {margin-left: 135px}
    nav a{display: block;
    }
 
-   #homeHero, #yurthero, #trailhero {background-image: none; height: 0;
-   }
 
    #mobile{display: inline;
    }
